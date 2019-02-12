@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Main site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/gettouch.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body data-spy="scroll" data-target="nav" data-offset="50">
+
+<!-----------------------------------NAVBAR---------------------------------------->
+
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top " id="navbar">
+				<h2 class="responsive "><a href="#" class="navbar-brand abs"><span>N</span>PS<span> S</span>ECURITY<br><i class="fa fa-arrow-circle-down text-danger d-none d-sm-block font-weight-bold	"></i></a></a>
+				</h2>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+				<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarMenu">
+				<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+								<a href="#" class="nav-link"><i class=" fa fa-home"></i> Home</a>
+						</li>
+
+						<li class="nav-item">
+								<a href="#features" class="nav-link"><i class=" fa fa-list-ul"></i> Services</a>
+						</li>
+						<li class="nav-item">
+								<a href="#about" class="nav-link"><i class=" fa fa-paper-plane"></i> About Us</a>
+						</li>
+							
+						<li class="nav-item">
+								<a href="#contact" class="nav-link"><i class=" fa fa-comments"></i> Contact</a>
+						</li>
+						
+						<li class="nav-item">
+							<a href="#team" class="nav-link"><i class=" fa fa-user"></i> Team</a>
+						</li>
+				</ul>
+
+			
+						<ul class="navbar-nav ml-auto" >
+							
+								<li  class="nav-item" >
+										<a href="#" class="nav-link  d-none d-sm-block" > <i class="fa fa-linkedin rounded-circle bg-light-blue p-2" data-toggle="tooltip" title="Linkedin"></i></a>
+								</li>
+								<li  class="nav-item">
+										<a href="#" class="nav-link  d-none d-sm-block" > <i data-toggle="tooltip" title="Instagram" class="fa fa-instagram rounded-circle bg-orange  p-2"></i>
+										</a>
+								</li>
+								<li  class="nav-item">
+										<a href="#" class="nav-link  d-none d-sm-block"> <i  data-toggle="tooltip" title="Facebook" class="fa fa-facebook-official rounded-circle bg-blue p-2"></i>
+										</a>
+								</li>
+								<li  class="nav-item">
+									<button class="btn-group-sm bg-danger border-0 registers"><a class="nav-link" href="#" data-toggle="modal" data-target="#register">Register</a></button>
+									</li>
+							
+							</ul>
+			</div>
+	</nav>
+	<div id="hero"></div>
+
+<!-----------------------------------NAVBAR---------------------------------------->
+
+<!-----------------------------------REGISTER MODEL--------------------------------->
+
+	
+<div class="modal" data-easein="perspectiveLeftIn"  tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true" id="register">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header bg-success">
+						<h2 class="h1-responsive text-center text-white p-2 "><i class="fa fa-sign-in"></i><b> Join Our Team</b></h2>
+						<button type="button" class="close" data-dismiss="modal"><i class="fa fa-window-close  text-white"></i></button>			
+				</div>
+				
+				<div class="modal-body">
+								<form class="p-0">
+									<div class="md-form">
+											<i class="fa fa-user prefix grey-text"></i>
+											<input type="text" id="defaultForm-name" class="form-control" required />
+											<label for="defaultForm-name">Name</label>
+									</div>
+
+									<div class="md-form">
+											<i class="fa fa-envelope prefix grey-text"></i>
+											<input type="email" id="defaultForm-email" class="form-control" required />
+											<label for="defaultForm-email">Your email</label>
+									</div>
+
+									<div class="md-form">
+											<i class="fa fa-phone prefix grey-text"></i>
+											<input type="number" id="defaultForm-phone" class="form-control" required />
+											<label for="defaultForm-phone">Phone Number</label>
+									</div>
+
+									<div class="md-form">
+											<i class="fa fa-keyboard-o prefix grey-text"></i>
+											<input type="number" id="defaultForm-sin" class="form-control" required />
+											<label for="defaultForm-sin">SIN No.</label>
+									</div>
+
+									<div class="md-form">
+											<i class="fa fa-location-arrow prefix grey-text"></i>
+											<input type="text" id="defaultForm-address" class="form-control" required />
+											<label for="defaultForm-address">Address</label>
+											<input type="text" id="defaultForm-address" class="form-control" required />
+											<label for="defaultForm-address"></label>
+									</div>
+
+									<div class="md-form">
+											<i class="fa fa-globe prefix grey-text "></i>
+											<select class="custom-select colorful-select dropdown-primary form-control" style="border:none;border-bottom: 1px solid #eee; width: auto; margin-left: 3em"required>
+															<option  value="" disabled selected>Choose your country</option>
+																	<option value="AF">Afghanistan</option>
+																	<option value="AX">Åland Islands</option>
+																	<option value="AL">Albania</option>
+																	<option value="DZ">Algeria</option>
+																	<option value="AS">American Samoa</option>
+																	<option value="AD">Andorra</option>
+																	<option value="AO">Angola</option>
+																	<option value="AI">Anguilla</option>
+																	<option value="AQ">Antarctica</option>
+																	<option value="AG">Antigua and Barbuda</option>
+																	<option value="AR">Argentina</option>
+																	<option value="AM">Armenia</option>
+																	<option value="AW">Aruba</option>
+																	<option value="AU">Australia</option>
+																	<option value="AT">Austria</option>
+																	<option value="AZ">Azerbaijan</option>
+																	<option value="BS">Bahamas</option>
+																	<option value="BH">Bahrain</option>
+																	<option value="BD">Bangladesh</option>
+																	<option value="BB">Barbados</option>
+																	<option value="BY">Belarus</option>
+																	<option value="BE">Belgium</option>
+																	<option value="BZ">Belize</option>
+																	<option value="BJ">Benin</option>
+																	<option value="BM">Bermuda</option>
+																	<option value="BT">Bhutan</option>
+																	<option value="BO">Bolivia, Plurinational State of</option>
+																	<option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+																	<option value="BA">Bosnia and Herzegovina</option>
+																	<option value="BW">Botswana</option>
+																	<option value="BV">Bouvet Island</option>
+																	<option value="BR">Brazil</option>
+																	<option value="IO">British Indian Ocean Territory</option>
+																	<option value="BN">Brunei Darussalam</option>
+																	<option value="BG">Bulgaria</option>
+																	<option value="BF">Burkina Faso</option>
+																	<option value="BI">Burundi</option>
+																	<option value="KH">Cambodia</option>
+																	<option value="CM">Cameroon</option>
+																	<option value="CA">Canada</option>
+																	<option value="CV">Cape Verde</option>
+																	<option value="KY">Cayman Islands</option>
+																	<option value="CF">Central African Republic</option>
+																	<option value="TD">Chad</option>
+																	<option value="CL">Chile</option>
+																	<option value="CN">China</option>
+																	<option value="CX">Christmas Island</option>
+																	<option value="CC">Cocos (Keeling) Islands</option>
+																	<option value="CO">Colombia</option>
+																	<option value="KM">Comoros</option>
+																	<option value="CG">Congo</option>
+																	<option value="CD">Congo, the Democratic Republic of the</option>
+																	<option value="CK">Cook Islands</option>
+																	<option value="CR">Costa Rica</option>
+																	<option value="CI">Côte d'Ivoire</option>
+																	<option value="HR">Croatia</option>
+																	<option value="CU">Cuba</option>
+																	<option value="CW">Curaçao</option>
+																	<option value="CY">Cyprus</option>
+																	<option value="CZ">Czech Republic</option>
+																	<option value="DK">Denmark</option>
+																	<option value="DJ">Djibouti</option>
+																	<option value="DM">Dominica</option>
+																	<option value="DO">Dominican Republic</option>
+																	<option value="EC">Ecuador</option>
+																	<option value="EG">Egypt</option>
+																	<option value="SV">El Salvador</option>
+																	<option value="GQ">Equatorial Guinea</option>
+																	<option value="ER">Eritrea</option>
+																	<option value="EE">Estonia</option>
+																	<option value="ET">Ethiopia</option>
+																	<option value="FK">Falkland Islands (Malvinas)</option>
+																	<option value="FO">Faroe Islands</option>
+																	<option value="FJ">Fiji</option>
+																	<option value="FI">Finland</option>
+																	<option value="FR">France</option>
+																	<option value="GF">French Guiana</option>
+																	<option value="PF">French Polynesia</option>
+																	<option value="TF">French Southern Territories</option>
+																	<option value="GA">Gabon</option>
+																	<option value="GM">Gambia</option>
+																	<option value="GE">Georgia</option>
+																	<option value="DE">Germany</option>
+																	<option value="GH">Ghana</option>
+																	<option value="GI">Gibraltar</option>
+																	<option value="GR">Greece</option>
+																	<option value="GL">Greenland</option>
+																	<option value="GD">Grenada</option>
+																	<option value="GP">Guadeloupe</option>
+																	<option value="GU">Guam</option>
+																	<option value="GT">Guatemala</option>
+																	<option value="GG">Guernsey</option>
+																	<option value="GN">Guinea</option>
+																	<option value="GW">Guinea-Bissau</option>
+																	<option value="GY">Guyana</option>
+																	<option value="HT">Haiti</option>
+																	<option value="HM">Heard Island and McDonald Islands</option>
+																	<option value="VA">Holy See (Vatican City State)</option>
+																	<option value="HN">Honduras</option>
+																	<option value="HK">Hong Kong</option>
+																	<option value="HU">Hungary</option>
+																	<option value="IS">Iceland</option>
+																	<option value="IN">India</option>
+																	<option value="ID">Indonesia</option>
+																	<option value="IR">Iran, Islamic Republic of</option>
+																	<option value="IQ">Iraq</option>
+																	<option value="IE">Ireland</option>
+																	<option value="IM">Isle of Man</option>
+																	<option value="IL">Israel</option>
+																	<option value="IT">Italy</option>
+																	<option value="JM">Jamaica</option>
+																	<option value="JP">Japan</option>
+																	<option value="JE">Jersey</option>
+																	<option value="JO">Jordan</option>
+																	<option value="KZ">Kazakhstan</option>
+																	<option value="KE">Kenya</option>
+																	<option value="KI">Kiribati</option>
+																	<option value="KP">Korea, Democratic People's Republic of</option>
+																	<option value="KR">Korea, Republic of</option>
+																	<option value="KW">Kuwait</option>
+																	<option value="KG">Kyrgyzstan</option>
+																	<option value="LA">Lao People's Democratic Republic</option>
+																	<option value="LV">Latvia</option>
+																	<option value="LB">Lebanon</option>
+																	<option value="LS">Lesotho</option>
+																	<option value="LR">Liberia</option>
+																	<option value="LY">Libya</option>
+																	<option value="LI">Liechtenstein</option>
+																	<option value="LT">Lithuania</option>
+																	<option value="LU">Luxembourg</option>
+																	<option value="MO">Macao</option>
+																	<option value="MK">Macedonia, the former Yugoslav Republic of</option>
+																	<option value="MG">Madagascar</option>
+																	<option value="MW">Malawi</option>
+																	<option value="MY">Malaysia</option>
+																	<option value="MV">Maldives</option>
+																	<option value="ML">Mali</option>
+																	<option value="MT">Malta</option>
+																	<option value="MH">Marshall Islands</option>
+																	<option value="MQ">Martinique</option>
+																	<option value="MR">Mauritania</option>
+																	<option value="MU">Mauritius</option>
+																	<option value="YT">Mayotte</option>
+																	<option value="MX">Mexico</option>
+																	<option value="FM">Micronesia, Federated States of</option>
+																	<option value="MD">Moldova, Republic of</option>
+																	<option value="MC">Monaco</option>
+																	<option value="MN">Mongolia</option>
+																	<option value="ME">Montenegro</option>
+																	<option value="MS">Montserrat</option>
+																	<option value="MA">Morocco</option>
+																	<option value="MZ">Mozambique</option>
+																	<option value="MM">Myanmar</option>
+																	<option value="NA">Namibia</option>
+																	<option value="NR">Nauru</option>
+																	<option value="NP">Nepal</option>
+																	<option value="NL">Netherlands</option>
+																	<option value="NC">New Caledonia</option>
+																	<option value="NZ">New Zealand</option>
+																	<option value="NI">Nicaragua</option>
+																	<option value="NE">Niger</option>
+																	<option value="NG">Nigeria</option>
+																	<option value="NU">Niue</option>
+																	<option value="NF">Norfolk Island</option>
+																	<option value="MP">Northern Mariana Islands</option>
+																	<option value="NO">Norway</option>
+																	<option value="OM">Oman</option>
+																	<option value="PK">Pakistan</option>
+																	<option value="PW">Palau</option>
+																	<option value="PS">Palestinian Territory, Occupied</option>
+																	<option value="PA">Panama</option>
+																	<option value="PG">Papua New Guinea</option>
+																	<option value="PY">Paraguay</option>
+																	<option value="PE">Peru</option>
+																	<option value="PH">Philippines</option>
+																	<option value="PN">Pitcairn</option>
+																	<option value="PL">Poland</option>
+																	<option value="PT">Portugal</option>
+																	<option value="PR">Puerto Rico</option>
+																	<option value="QA">Qatar</option>
+																	<option value="RE">Réunion</option>
+																	<option value="RO">Romania</option>
+																	<option value="RU">Russian Federation</option>
+																	<option value="RW">Rwanda</option>
+																	<option value="BL">Saint Barthélemy</option>
+																	<option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+																	<option value="KN">Saint Kitts and Nevis</option>
+																	<option value="LC">Saint Lucia</option>
+																	<option value="MF">Saint Martin (French part)</option>
+																	<option value="PM">Saint Pierre and Miquelon</option>
+																	<option value="VC">Saint Vincent and the Grenadines</option>
+																	<option value="WS">Samoa</option>
+																	<option value="SM">San Marino</option>
+																	<option value="ST">Sao Tome and Principe</option>
+																	<option value="SA">Saudi Arabia</option>
+																	<option value="SN">Senegal</option>
+																	<option value="RS">Serbia</option>
+																	<option value="SC">Seychelles</option>
+																	<option value="SL">Sierra Leone</option>
+																	<option value="SG">Singapore</option>
+																	<option value="SX">Sint Maarten (Dutch part)</option>
+																	<option value="SK">Slovakia</option>
+																	<option value="SI">Slovenia</option>
+																	<option value="SB">Solomon Islands</option>
+																	<option value="SO">Somalia</option>
+																	<option value="ZA">South Africa</option>
+																	<option value="GS">South Georgia and the South Sandwich Islands</option>
+																	<option value="SS">South Sudan</option>
+																	<option value="ES">Spain</option>
+																	<option value="LK">Sri Lanka</option>
+																	<option value="SD">Sudan</option>
+																	<option value="SR">Suriname</option>
+																	<option value="SJ">Svalbard and Jan Mayen</option>
+																	<option value="SZ">Swaziland</option>
+																	<option value="SE">Sweden</option>
+																	<option value="CH">Switzerland</option>
+																	<option value="SY">Syrian Arab Republic</option>
+																	<option value="TW">Taiwan, Province of China</option>
+																	<option value="TJ">Tajikistan</option>
+																	<option value="TZ">Tanzania, United Republic of</option>
+																	<option value="TH">Thailand</option>
+																	<option value="TL">Timor-Leste</option>
+																	<option value="TG">Togo</option>
+																	<option value="TK">Tokelau</option>
+																	<option value="TO">Tonga</option>
+																	<option value="TT">Trinidad and Tobago</option>
+																	<option value="TN">Tunisia</option>
+																	<option value="TR">Turkey</option>
+																	<option value="TM">Turkmenistan</option>
+																	<option value="TC">Turks and Caicos Islands</option>
+																	<option value="TV">Tuvalu</option>
+																	<option value="UG">Uganda</option>
+																	<option value="UA">Ukraine</option>
+																	<option value="AE">United Arab Emirates</option>
+																	<option value="GB">United Kingdom</option>
+																	<option value="US">United States</option>
+																	<option value="UM">United States Minor Outlying Islands</option>
+																	<option value="UY">Uruguay</option>
+																	<option value="UZ">Uzbekistan</option>
+																	<option value="VU">Vanuatu</option>
+																	<option value="VE">Venezuela, Bolivarian Republic of</option>
+																	<option value="VN">Viet Nam</option>
+																	<option value="VG">Virgin Islands, British</option>
+																	<option value="VI">Virgin Islands, U.S.</option>
+																	<option value="WF">Wallis and Futuna</option>
+																	<option value="EH">Western Sahara</option>
+																	<option value="YE">Yemen</option>
+																	<option value="ZM">Zambia</option>
+																	<option value="ZW">Zimbabwe</option>
+														</select>
+														
+									</div>
+
+									<div class="md-form">
+											<i class="fa fa-upload prefix grey-text" data-toggle="tooltip" title="Upload Passport"></i>
+											<input type="file"  id="defaultForm-passport" data-toggle="tooltip" style="border:;" title="Upload Passport" class="form-control"  placeholder="Passport" required />
+											<label for="defaultForm-passport"></label>
+									</div>
+									
+									<div class="md-form">
+											<i class="fa fa-upload prefix grey-text" data-toggle="tooltip" title="Upload Other"></i>
+											<input type="file" id="defaultForm-passport" class="form-control" style="border:;" data-toggle="tooltip" title="Upload Other" placeholder="Passport" required />
+											<label for="defaultForm-passport"></label>
+									</div>
+
+
+									<div class="text-center">
+											<button class="btn btn-default waves-effect waves-light">Send</button>
+									</div>
+								</form>
+							</div>
+					</div>
+				</div>
+			</div>
+	
+
+<!-----------------------------------REGISTER MODEL--------------------------------->
+
+
+<!-------------------------------CAROUSEL-------------------------------------------->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    
+  </ol>
+  <div class="carousel-inner">
+
+		<div class="carousel-item active">
+					<div class="fullscreen-video-wrap">
+							<video src="video/video_3.mp4#t=69" autoplay="true" loop="true" muted="true"></video>
+						</div>		
+						
+					<div class="carousel-caption">
+							<h1 class="responsive text-center ">Northern Protection Services</h1>
+							<p>Wherever you go it'll inside the world</p>
+							<a class="btn btn-link-1 scroll" href="#">Explore Now</a>
+						
+					</div>
+			</div> 
+			
+	
+
+    <div class="carousel-item ">
+				<img  src="images/nasa-43563-unsplash.jpg" class="d-block w-100"  alt="First slide">
+                	<div class="carousel-caption">
+					<!-- <h3>Loreum ipsum sit amraf adfjfnadsf</h3>
+					<p>slide 1</p> -->
+				</div>           
+    </div>
+  
+		<div class="carousel-item">
+				<img  src="images/spencer-watson-670049-unsplash.jpg" class="d-block w-100"  alt="First slide">
+									
+				<div class="carousel-caption">
+						<h1 class="responsive text-center ">Northern Protection Services</h1>
+						<p>Wherever you go it'll inside the world</p>
+						<a class="btn btn-link-1 scroll" href="#">Explore Now</a>
+				</div>
+		</div>
+		
+		<div class="carousel-item">
+				<img  src="images/hermes-rivera-716232-unsplash.jpg" class="d-block w-100"  alt="First slide">
+
+			<div class="carousel-caption">
+					<!-- <h3>Loreum ipsum sit amraf adfjfnadsf</h3>
+					<p>slide 1</p> -->
+					
+				</div>
+		</div>
+		
+		
+
+  </div>
+	<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-------------------------------CAROUSEL-------------------------------------------->
+
+
+<!---------------------------------FEATURES------------------------------------------>
+
+	<div id="features" class="container-fluid">
+			<div class="container-fluid p-4">
+					<div class="container">
+							<h2 class="h1-responsive text-center pt-3">Our Services</h2>
+							<hr class="hr-info"	/>
+						<br>
+						<div class="row">
+							<div class="col-md-3">
+									<div class="view overlay zoom rounded-circle">
+										<img src="images/24-hour-daily-service.svg" alt="" class="rounded-circle img-fluid" >
+								
+										<div class="mask flex-center rgba-black-strong">
+												<p class="">24 HOURS SERVICES</p>
+										</div>
+									</div>
+									<hr>
+								<h3 class="text-center">24 Hours Services</h3>
+					
+							</div>
+
+				
+							<div class="col-md-3 ">
+									<div class="view overlay zoom  rounded-circle">
+								<img src="images/jobs-icon-1.png" alt="" class="rounded-circle img-fluid w-100" >
+								<div class="mask flex-center rgba-black-strong">
+										<p class="">JOBS<br> AVAILABLE</p>
+								</div>
+							</div>
+							<hr>
+								<h3 class="text-center">Jobs Available</h3>
+							</div>
+
+
+							<div class="col-md-3">
+								<div class="view overlay zoom rounded-circle">
+									<img src="images/532628.png" alt="" class="rounded-circle img-fluid" >
+									<div class="mask flex-center rgba-black-strong">
+											<p class="">WORK AND EARN MONEY</p>
+									</div>
+								</div>
+								<hr>
+									<h3 class="text-center">Work And Earn</h3>
+	
+								</div>
+	
+							<div class="col-md-3 ">
+									<div class="view overlay zoom rounded-circle">
+									<img src="images/schedule.png" alt="" class="rounded-circle img-fluid w-100" >
+									<div class="mask flex-center rgba-black-strong">
+											<p class="" >PART TIME <br>AND<br> FULL TIME</p>
+									</div>
+								</div>
+								<hr>
+									<h3 class="text-center">Part & Full Time</h3>
+								</div>
+						</div> 
+						</div>
+			</div>
+	</div>
+
+<!---------------------------------FEATURES-------------------------------------------------->
+
+
+<!-------------------------------------ABOUT US----------------------------------------->
+
+
+
+<div class="container-fluid about-img" id="about" >
+		<div class="container pb-4 ">
+				<h2 class="h1-responsive text-center pt-4">About Us</h2>
+				<hr class="hr-primary">
+						<div class="row">
+								<div class="col col-md-6 pt-2">
+								<div class="card">
+									<div class="card-body">
+											<h4 class="h3-responsive text-center b ">Preparedness is Key</h4><hr class="d-none d-sm-block">
+											<p class="responsive p-2 d-none d-sm-block">											
+													At Northern Protection Security (NPS), we believe that preparedness is the key to truly making persons and property secure. That’s why we prepare our clients for the unexpected by equipping them with the necessary tools for an effective safety and security program.</p>
+												<p class="d-none d-sm-block">
+														NPS provides a wide range of safety and security services including security guards and security consulting. Don't wait for an emergency to catch you unprepared – take a proactive approach and arm yourself with Northern Protection Security.
+
+											</p>
+									</div>
+								</div>
+								</div>
+					
+								<div class="col col-md-6 pt-2">
+									<div class="view overlay zoom">
+										<img class=" card img-fluid img-thumbnail d-block w-100 h-60" src="images/john-schnobrich-520023-unsplash.jpg">
+								
+									<div class="mask flex-center rgba-red-strong">
+											<p class="white-text">WELCOME TO NPS</p>
+									</div>
+								</div>
+								</div>
+						</div>
+			</div>
+	</div>
+	
+	<!-------------------------------------ABOUT US----------------------------------------->
+
+
+<!-----------------------------------GET IN TOUCH----------------------------------->
+
+<div class="container-fluid" id="contact">
+			<div class="container mt-0">
+					<h2 class="h1-responsive text-center pt-5"><i class="fa fa-envelope"></i> Get in Touch with us</h2><hr>
+						<blockquote class="text-center w-responsive mx-auto " style="font-family:sans-serif; font-size: 16px; ">I'd love to hear from you! Please send me a note or comment and I'll reply promptly.</blockquote>
+						<hr class="hr-primary mb-5">
+
+<div class="row">
+			<div class="col col-12 pb-3">				
+					<form>
+					<div class="md-form">
+						<i class="fa fa-user prefix black-text"></i>
+							<input type="text" id="form-name" class="form-control" required />
+							<label for="form-name">Your name</label>
+					</div>
+							
+					<div class="md-form">
+						<i class="fa fa-envelope prefix black-text"></i>
+						<input type="email" id="form-email" class="form-control" required />
+						<label for="form-email">Your email</label>
+					</div>
+							
+					<div class="md-form">
+						<i class="fa fa-tag prefix black-text"></i>
+						<input type="text" id="form-Subject" class="form-control" required />
+						<label for="form-Subject">Subject</label>
+					</div>
+					
+					<div class="md-form">
+						<i class="fa fa-pencil-alt prefix white-text"></i>
+						<textarea type="text" id="form-text" class="form-control md-textarea" rows="3" required ></textarea>
+						<label for="form-text">Send message</label>
+					</div>
+							
+					<div class="text-center">
+						<button class="btn btn-light-green btn-lg">Submit</button>
+					</div>
+				</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-----------------------------------CONTACT FORM-------------------------------------------->
+
+
+<!-------------------------------------TEAM MEMBERS--------------------------------------------->
+
+<div class="container-fluid" id="team">
+	<div class="container">
+			<h2 class="h1-responsive text-center pt-4">Meet Our Team</h2>
+			<br>
+			<blockquote style="font-family:sans-serif;
+			color: #aaa;">"Unity is strength. . . when there is teamwork and collaboration, wonderful things can be achieved." --Mattie Stepanek
+			</blockquote>
+			<hr class="hr-primary">
+			<br>
+			
+	<div class="row pb-3">
+			<div class="col-md-4">
+					<div class="card">
+						<div class="card-header">
+								<img src="images/marius-ciocirlan-398931-unsplash.jpg" class="img-fluid  profile-img">
+						</div>
+						
+						<div class="card-body text-center">
+							<div class="display-7  text-gray-000">Loreum Ipsum</div>
+								<div class="font-size-sm letter-spacing-extra text-gray-700 font-weight-bold margin-top-x1 margin-bottom-x3">
+									Back-End Developer 
+								</div>
+								<a href="#"><i class="fa fa-linkedin rounded-circle bg-danger text-white mr-2 p-2"></i></a>
+								<!-- 	<a href="#"><i class="fa fa-twitter rounded-circle bg-danger text-white mr-2 p-2"></i></a> -->
+								<a href="#"><i class="fa fa-instagram rounded-circle bg-danger text-white mr-2 p-2"></i></a>
+								<a href="#"><i class="fa fa-facebook-official rounded-circle bg-danger text-white mr-2 p-2"></i></a>
+							</div>
+					</div>
+			</div>
+					
+			<div class="col-md-4">
+				<div class="card">
+							<div class="card-header">
+									<img src="images/marius-ciocirlan-398931-unsplash.jpg" class="img-fluid profile-img">
+							</div>
+
+					<div class="card-body text-center">
+						<div class="display-7 text-gray-000">Loreum Ipsum</div>
+							<div class="font-size-sm letter-spacing-extra text-gray-700 font-weight-bold margin-top-x1 margin-bottom-x3">
+								Front-End Developer 
+							</div>
+						
+							<a href="#"><i class="fa fa-linkedin rounded-circle bg-danger text-white mr-2 p-2"></i></a>
+							<!-- 	<a href="#"><i class="fa fa-twitter rounded-circle bg-danger text-white mr-2 p-2"></i></a> -->
+							<a href="#"><i class="fa fa-instagram rounded-circle bg-danger text-white mr-2 p-2"></i></a>
+							<a href="#"><i class="fa fa-facebook-official rounded-circle bg-danger text-white mr-2 p-2"></i></a>
+					</div>
+				</div>
+			</div>
+					
+				
+			<div class="col-md-4">
+				<div class="card">
+					<div class="card-header">
+						<img src="images/marius-ciocirlan-398931-unsplash.jpg" class="img-fluid profile-img ">
+					</div>
+				
+					<div class="card-body text-center">
+						<div class="display-7  text-gray-000">Loreum Ipsum</div>
+							<div class="font-size-sm letter-spacing-extra text-gray-700 font-weight-bold margin-top-x1 margin-bottom-x3">
+								Cyber Security Expert
+							</div>
+
+							<a href="#"><i class="fa fa-linkedin rounded-circle bg-danger text-white mr-2 p-2"></i></a>
+							<!-- 	<a href="#"><i class="fa fa-twitter rounded-circle bg-danger text-white mr-2 p-2"></i></a> -->
+							<a href="#"><i class="fa fa-instagram rounded-circle bg-danger text-white mr-2 p-2"></i></a>
+							<a href="#"><i class="fa fa-facebook-official rounded-circle bg-danger text-white mr-2 p-2"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+<!-------------------------------------TEAM MEMBERS--------------------------------------------->
+
+
+<!-----------------------------------OUR PARTNERS--------------------------------------------->
+
+<div class="container-fluid" id="partners">
+	
+		<div class="container">
+				<h2 class="h1-responsive text-center pt-5">Our Partners</h2>
+				<br>
+				<hr class="hr-primary">
+			<div class="row">
+					<div class="col-md-3">
+									<img class="img-fluid" src="images/ibm-security-logo-partner.png" alt="Second slide">
+					</div>
+					<div class="col-md-3">
+									<img class="img-fluid " src="images/ibm-security-logo-partner.png" alt="Second slide">
+					</div>
+					<div class="col-md-3">
+									<img class="img-fluid"src="images/ibm-security-logo-partner.png" alt="Second slide">
+					</div>
+					<div class="col-md-3">
+									<img class="img-fluid" src="images/ibm-security-logo-partner.png"" alt="Second slide">
+					</div>
+			</div>
+		</div>
+		</div>
+		
+		<!-------END----------------------------OUR PARTNERS-------------------------END--------------->
+		
+		
+
+
+
+<!-----------------------------------FOOTER-------------------------------------------->
+
+<footer>
+		<div class="container-fluid">
+			<div class="col-md-9 mx-auto">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-4 office">
+							<h3>Corporate Office</h3>
+							<hr>
+							<p>Northern Protection Services Private Limited</p>
+							<p>Address: Plot No - 29 , 3rd & 4th Floor,</p>
+							<p>Dynamic House, Benz Industrial Area, Sector 123,</p>
+							<p>Jalandhar -144411,Punjab</p>
+							<p>Landline: 9999 123 9999</p>
+						</div>
+						<div class="col-md-4 social-icons">
+							<h3>Connect with us on :</h3>
+							<hr>
+							<ul>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+						</div>
+						<div class="col-md-4 connect">
+							<h3>Contact us here</h3>
+							<hr>
+							<div class="row mt-4"><i class="fa fa-phone"></i><p>9999 123 9999</p></div>
+							<div class="row"><i class="fa fa-envelope"></i><p>customercare@northernservice.com</p></div>
+						</div>
+					</div>
+					<div class="row copyright">
+						<div class="col-md-12">
+							<p>Copyright &copy; 2018 All rights reserved</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>			
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
+<script src="js/script.js"></script>			
+
+<script>
+
+</script>
+
+</body>
+</html>
